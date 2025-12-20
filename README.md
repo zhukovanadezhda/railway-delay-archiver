@@ -2,7 +2,6 @@
 
 This project collects, stores, and enriches real-time railway delay data in France using the SNCF / Navitia public API.
 
----
 
 ## 1. Get an SNCF / Navitia API token
 
@@ -40,5 +39,5 @@ This command will automatically:
 - aggregate raw observations into train-level records
 - enrich the data with calendar and weather information
 
-The pipeline runs continuously and updates the database every hour, if you want to stop it use `Ctrl+C`.
+The pipeline runs continuously and updates the database every hour. If you want to stop it, use `Ctrl+C`.
 
